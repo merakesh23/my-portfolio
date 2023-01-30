@@ -6,7 +6,7 @@ body{
 
 :root{
 
-    --primary-color:#0369a1;
+    --primary-color:#9333ea;
     --secondary-color:#075985;
     --of-white:#cbd5e1;
 }
@@ -97,7 +97,10 @@ hr{
     margin: auto;
 }
 .hero-heading{
+    margin: auto;
     text-align: center;
+    padding: 1rem 1rem;
+
 }
 .hero-heading .heading-inverted{
     color:var(--primary-color)
@@ -139,6 +142,17 @@ hr{
     padding-inline-start: 0px;
 }
 
+
+.blog-para{
+    padding-right: 8rem;
+    padding-left: 8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-size{
+    font-size: large;
+}
 
 
  
