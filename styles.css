@@ -144,10 +144,11 @@ hr{
 
 
 .blog-para{
-    padding-right: 8rem;
-    padding-left: 8rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+   margin: auto;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-inline-start: 2rem;
+   padding-inline-end: 2rem;
 }
 
 .text-size{
