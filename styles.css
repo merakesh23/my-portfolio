@@ -92,7 +92,7 @@ hr{
 }
 
 .hero-img{
-    max-width: 350px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -100,6 +100,7 @@ hr{
     margin: auto;
     text-align: center;
     padding: 1rem 1rem;
+    padding-left: 5rem;
 
 }
 .hero-heading .heading-inverted{
@@ -109,6 +110,7 @@ hr{
 /**section**/
  .section{
     padding: 1rem;
+    
  }
 .section h1{
     padding: 0.5rem;
@@ -117,14 +119,21 @@ hr{
 
 .section-ow{
     background-color: var(--of-white);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 /**footer**/
 .footer{
     background-color: var(--primary-color);
     padding: 1rem 1rem;
     border-bottom-left-radius: 1rem;
+    
+    border-top-right-radius: 1rem;
     text-align: center  ;
     color: white;
+    padding-top: 1rem;
 }
 
 .footer .footer-header{
@@ -144,11 +153,9 @@ hr{
 
 
 .blog-para{
+   max-width: 800px;
+   padding: 1rem 1rem;
    margin: auto;
-   padding-top: 1rem;
-   padding-bottom: 1rem;
-   padding-inline-start: 2rem;
-   padding-inline-end: 2rem;
 }
 
 .text-size{
