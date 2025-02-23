@@ -2,6 +2,8 @@
 
 body{
     font-family: 'Noto Sans', sans-serif;
+    background-color: oklch(0.962 0.059 95.617);
+    margin: 0px;
 }
 
 :root{
